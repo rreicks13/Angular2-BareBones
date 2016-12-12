@@ -3,6 +3,6 @@ npm-debug.log
 src/app/**/*.js
 src/app/**/*.js.map
 .vscode
-
+.vagrant
 
 
