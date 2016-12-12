@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "dist/app",
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -10,6 +11,10 @@
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true
   },
+  "files": [
+    "src/app/**/*.ts",
+    "src/app/*.ts"
+  ],
   "exclude": [
     "node_modules"
   ]
